@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.vishal.Adorn">
 
+    <uses-sdk tools:ignore="GradleOverrides" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,16 +17,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.LoginActivity">
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.ForgetPassActivity" />
+        <activity android:name=".Activity.ProductActivity" />
         <activity android:name=".Activity.HomeActivity" />
-        <activity android:name=".Activity.SplashScreen"></activity>
+        <activity android:name=".Activity.ProductList" />
+        <activity android:name=".Activity.ProductDetail" />
+        <activity android:name=".Activity.cart" />
+        <!-- <activity android:name=".Activity.OrderStatusActivity"></activity> -->
+        <activity android:name=".Activity.FeedbackActivity" />
+        <activity android:name=".Activity.Customize" />
+        <activity android:name=".Activity.YourOrder" />
+        <activity android:name=".Activity.HelpActivity" />
     </application>
 
 </manifest>

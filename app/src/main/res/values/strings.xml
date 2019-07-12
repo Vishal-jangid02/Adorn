@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">Adorn</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="wood">
+        <item>Walnut</item>
+        <item>Maple</item>
+        <item>Mahogany</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Bed</item>
+        <item>Chair</item>
+        <item>Dinning Table</item>
+    </string-array>
+
+    <string-array name="wood1">
+        <item>Empty</item>
+        <item>Walnut</item>
+        <item>Maple</item>
+        <item>Mahogany</item>
+    </string-array>
+
+    <string-array name="Polish">
+        <item>Acetone</item>
+        <item>Linwood Oil</item>
+        <item>Denatured Alcohol</item>
+    </string-array>
+
+    <string-array name="Polish1">
+        <item>Empty</item>
+        <item>Acetone</item>
+        <item>Linwood Oil</item>
+        <item>Denatured Alcohol</item>
+    </string-array>
+
+    <string-array name="metal">
+        <item>Empty</item>
+        <item>Brass</item>
+        <item>Copper</item>
+        <item>Steel</item>
+    </string-array>
+
+    <string-array name="Color">
+        <item>Empty</item>
+        <item>Yellow</item>
+        <item>Textured Chalk</item>
+        <item>White Benjamin</item>
+    </string-array>
 </resources>

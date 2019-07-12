@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HelpActivity">
+
+        <ImageView
+            android:src="@drawable/faqs"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+ <!--   <TextView
+        android:id="@+id/textView3"
+        android:textSize="40sp"
+        android:layout_marginLeft="134dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="FAQs" />
+    <TextView
+        android:text="   I don’t remember my password. Help!
+
+   Follow these steps to reset-
+    Click on ‘Forgot password?’
+
+    Enter your registered email address or
+   mobile number and we will send you a
+   security code to reset your password
+
+    When will ADORN launch its Desktop
+    Site?
+  As soon as app will get an exciting
+    response we will head on for launching
+    our desktop site
+
+  What is the time taken by app to tell us
+   the possible prize of furniture we have
+   uploaded?
+
+  It can take one day maximum but we
+   will try to reach you with possible cost
+   as early as possible.
+
+ What are the different modes of
+  payment available?
+
+ Right now, there is only one option of
+  COD but soon we will come up with
+  online and UPI payment features.
+
+ Can I cancel part of my order?
+
+ Yes, if you placed an order with many
+  items,you can cancel delivery for each
+  of item. But if it is part of a combo
+  or clubbed with another item, the
+  entire set/combo will be cancelled.
+
+"
+
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+-->
+
+</LinearLayout>

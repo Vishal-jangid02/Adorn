@@ -4,7 +4,17 @@ public class MyPojo {
 
     String name;
     String mobileNumber;
+    String address;
     String email;
+    String password;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getName() {
         return name;
@@ -38,6 +48,6 @@ public class MyPojo {
         this.password = password;
     }
 
-    String password;
+
 
 }
